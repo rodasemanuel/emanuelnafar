@@ -114,6 +114,11 @@ body{
 footer {
 	padding: 5% 0%;
 }
+.line-line{
+	width: 4em;
+	border: 2px solid #000000;
+	margin: 1em auto;
+}
 .contact{
 	padding: 0% 20%
 }
