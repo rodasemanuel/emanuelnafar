@@ -4,45 +4,62 @@ body{
 }
 .line{
 	width: 4em;
-	border: 2px solid #9089AF;
+	border: 2px solid #ffffff;
+	margin: 1em auto;
+}
+
+.linea{
+	width: 4em;
+	border: 2px solid #000000;
 	margin: 1em auto;
 }
 
 .line-white{
 	width: 4em;
-	border: 2px solid #FFFFFF;
+	border: 2px solid #ffffff;
 	margin: 1em auto;
 }
 .bg-portafolio{
-	background-color: #9089AF;
+	background-color: #000000;
 }
 .text-portafolio{
-	color: #9089AF;
+	color: rgb(244, 142, 0);
 }
 .text-white{
-	color: #FFFFFF;
+	color: #f48e00;
 }
+
+.text-color{
+	color: rgb(244, 142, 0);
+}
+
+.tipos-servicios{
+	background-color: #000000;
+	color: #ffffff;
+}
+
 .text-opacity{
-	color: rgba(255, 255, 255, 0.7);
+	color: rgb(244, 142, 0);
 }
 .bg-black{
 	background-color: #000000;}
 
 /*--------HEADER----------*/
 .bg-image{
-	background-image: url(../img/nafar.jpg);
+	background-image: url(../img/19.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 22% 18%;
+	padding: 15% 19%;	
 }
+
 .navbar .portafolio{
-	color: #9089AF;
+	color: rgb(244, 142, 0);
 }
 .navbar #bs-example-navbar-collapse-1 .list{
 	color: gray;
 }
 .navbar #bs-example-navbar-collapse-1 .list:hover{
-	color: #9089AF;
+	color: rgb(244, 142, 0);
 }
 .boton{
 	border: none;
@@ -77,24 +94,24 @@ body{
 	width: 100%;
 	display: flex;
 }
-.newcategory{ 
+.newcategory{
 	opacity:0;
 	position: absolute;
 	top: 0px;
 	width: 100%;
 	height: auto;
-} 
+}
 
-.overlay:hover .newcategory{ 
-	opacity:0.9; 
-	color:#FFFFFF; 
-	font-weight:700;
-	background-color: #F05F40;
+.overlay:hover .newcategory{
+	opacity:0.9;
+	color:#FFFFFF;
+	font-weight:800;
+	background-color: rgb(244, 142, 0);
 	text-align: center;
 	padding-top: 20%;
-	min-height: 100%; 
+	min-height: 100%;
 }
-.overlay:hover .newcategory h4{ 
+.overlay:hover .newcategory h4{
 	color: rgba(255, 255, 255, 0.7);
 }
 .no-p{
@@ -146,4 +163,3 @@ footer {
 	font-size: 12px;
 	}
 }
-
